@@ -1,0 +1,15 @@
+inStr=$1
+
+# t7ファイルが入力されたとき
+if [[ $inStr == *.t7 ]] 
+then
+t7=$inStr #.t のファイル名
+bin=${inStr%.t7}.bin #.bin のファイル名
+tasm7 $t7 && python3 ~/.tecutil/syrial.py $bin
+
+# binファイルが入力されとき
+elif [[ $inStr == *.bin ]]
+then
+python3 ~/.tecutil/syrial.py $inStr # syrialを開始
+
+fi
