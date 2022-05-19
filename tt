@@ -10,6 +10,6 @@ tasm7 $t7 && python3 ~/tecutil/syrial.py $bin
 # binファイルが入力されとき
 elif [[ $inStr == *.bin ]]
 then
-python3 ~/.tecutil/syrial.py $inStr # syrialを開始
+python3 ~/tecutil/syrial.py $inStr # syrialを開始
 
 fi
