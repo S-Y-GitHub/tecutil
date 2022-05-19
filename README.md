@@ -9,10 +9,10 @@
 
 ## Requirement
 
-macOS
-Python3
-pySerial
-tasm7
+* macOS
+* Python3
+* pySerial
+* tasm7
 
 ## Usage
 
