@@ -10,6 +10,6 @@ open .zshrc
 
 .zshrcに
 ```
-PATH="/Users/(ユーザー名)/tecutil:$PATH"
+export PATH="/Users/(ユーザー名)/tecutil:$PATH"
 ```
 を追加して保存
