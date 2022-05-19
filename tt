@@ -5,7 +5,7 @@ if [[ $inStr == *.t7 ]]
 then
 t7=$inStr #.t のファイル名
 bin=${inStr%.t7}.bin #.bin のファイル名
-tasm7 $t7 && python3 ~/.tecutil/syrial.py $bin
+tasm7 $t7 && python3 ~/tecutil/syrial.py $bin
 
 # binファイルが入力されとき
 elif [[ $inStr == *.bin ]]
